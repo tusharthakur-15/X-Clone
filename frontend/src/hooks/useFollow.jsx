@@ -33,5 +33,4 @@ const useFollow = () => {
 
 	return { follow, isPending };
 };
-
 export default useFollow;

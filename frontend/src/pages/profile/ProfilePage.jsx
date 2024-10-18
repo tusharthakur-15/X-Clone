@@ -50,7 +50,6 @@ const ProfilePage = () => {
 			}
 		},
 	});
-
 	const { isUpdatingProfile, updateProfile } = useUpdateUserProfile();
 
 	const isMyProfile = authUser._id === user?._id;
